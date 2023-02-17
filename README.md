@@ -1,1 +1,1 @@
-# How hackers cracks PIN by using a dictionary of stolen PIN hashes
+# How hackers crack uaer PINs by using brute force on stolen PIN hashes
