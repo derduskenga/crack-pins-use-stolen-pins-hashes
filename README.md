@@ -69,7 +69,7 @@ For example:
 
 ## Test your code
 
-The starter code provides unit test for your `computeUsernamePINDictionary` method. This test is in the `test-pin.py` file. Once you complete writing the code for your method, run the file to check that your function implementation returns the expected values.  
+The starter code provides unit test for your `computeUsernamePINDictionary` method. This test is in the `test-pin.py` file. Once you complete writing the code for your method, you can run the file to check that your function implementation returns the expected values.  
 
 ## Hints
 
