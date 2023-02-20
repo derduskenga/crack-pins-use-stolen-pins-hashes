@@ -53,11 +53,11 @@ Your task is to implement the `computeUsernamePINDictionary` method. At the mome
 
 For example: 
 
-- if the `usernamePasswordHashDictionary` is `{}`, the `computeUsernamePINDictionary` method should return `{}`
-
-- if the `usernamePasswordHashDictionary` is `{"user1": "d6a9a933c8aafc51e55ac0662b6e4d4a","user2": "b26230fafbc4b147ac48217291727c98", "user3": "a6398c2be6b2c5046b0025eefd8e4c2a","user4": "cbcfbad7e9761f71b9b5139185d058f1"}`, the `computeUsernamePINDictionary` method should return `{'user4': '012348', 'user1': '012345', 'user2': '012346', 'user3': '012347'}`
-
-- if the `usernamePasswordHashDictionary` is `{'user45':'0dd334f240187c5c733b93684467e746'}`, the `computeUsernamePINDictionary` method should return `{'user45': '999890'}`
+|  Value of `usernamePasswordHashDictionary` | Expected output  | 
+|---|---|
+| `{}`  | `{}`  |  
+| `{"user1": "d6a9a933c8aafc51e55ac0662b6e4d4a","user2": "b26230fafbc4b147ac48217291727c98", "user3": "a6398c2be6b2c5046b0025eefd8e4c2a","user4": "cbcfbad7e9761f71b9b5139185d058f1"}`  | `{'user4': '012348', 'user1': '012345', 'user2': '012346', 'user3': '012347'}`  |   
+| `{'user45':'0dd334f240187c5c733b93684467e746'}`  | `{'user45': '999890'}`  | 
 
 ### Important information
 
