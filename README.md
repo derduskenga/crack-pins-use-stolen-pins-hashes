@@ -1,10 +1,10 @@
 # Simulate how hackers crack user PINs/password by using brute force and dictionary attacks 
 
-In computer systems, user passwords aren't stored in the computer database in plain text. Instead of plain text, passwords are converted into a hash value by using a one-way hashing function. The hash function takes a variable-length input string and converts it into a fixed-length string. This function is called one-way as it's is designed to convert a password into a hash, but there's no way of or it's hard for a reverse process. 
+In computer systems, user passwords aren't stored in the computer database in plain text. Instead, passwords are hashed by using a one-way hashing algorithm. The hash function takes a variable-length input string and converts it into a fixed-length string. This function is called one-way as it's designed to convert a password into a hash, but there's no way or it's hard for a reverse process. 
 
-A reason for hashing passwords is to prevent them from being read if the computer system is compromised by hackers. Even with this measure, hackers can still crack user passwords by using dictionary attack. 
+A reason for hashing passwords is to prevent them from being read if the computer system is compromised by hackers. Even with hashing, hackers can still crack user passwords by using a combination of dictionary and brute force attack. 
 
-In this mini-project, you'll write code to demonstrate how hackers crack user personal identification numbers (PINs) by using a stollen database of PINs hashes
+In this mini-project, you'll write code to demonstrate how hackers crack user personal identification numbers (PINs) by using a stollen database of PINs hashes.
 
 ## Dictionary and bruite force attack example
 
@@ -73,13 +73,20 @@ The starter code provides unit test for your `computeUsernamePINDictionary` meth
 
 ## Hints
 
-- You can break down your implemetation into small methods, which the method `computeUsernamePINDictionary` calls.  
+- You can use helper methods, which you can then call from the `computeUsernamePINDictionary` method.  
 
-- 
+- You can generte all possible PIN combinations by using the `product` method in the `itertools` module.
+
+- The implementation of the md5 hashing algorithm is available in the `hashlib` module. 
 
 ## Bonus Task
 
-1. Possible number of PINs the hacker has to generate - permutations. 
-2. How use of a cryptographic salt can stop the hacker from hacking user password.
+1. Calculate the total number of possible PIN combinations you can generate from the above example. Show your working. 
+
+1. Explain how the introduction of a cryptographic salt during hashing can stop the hacker from hacking user PINs. 
 
 ## Resources 
+
+- https://docs.python.org/3/library/hashlib.html 
+
+- https://docs.python.org/3/library/itertools.html
