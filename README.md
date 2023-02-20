@@ -24,7 +24,7 @@ A hacker gains access into a computer system and steals a database of users' use
 
 The hacker knows that the users sign in into the system by using a username and a six-digit PIN, and that the hashing algorithm used is md5, so the hacker proceeds as follows: 
 
-1. Generates all possible six-digit PINs and their hashes. It looks similar to the following dictionary, where the `key` is the six-digit PIN, and the `value` is the PINs hash: 
+1. Generates all possible six-digit PINs and their hashes, called a *dictionary*. It looks similar to the following dictionary, where the `key` is the six-digit PIN, and the `value` is the PINs hash: 
   
     `{..., '012345':'d6a...d4a', '012649':'551...b5d', '014532':'693...0e8', ...}`
   
@@ -81,9 +81,17 @@ The starter code provides unit test for your `computeUsernamePINDictionary` meth
 
 ## Bonus Task
 
-1. Calculate the total number of possible PIN combinations you can generate from the above example. Show how you arrive at your answer working. 
+1. Calculate the total number of possible PIN combinations you can generate from the above example. Show how you arrive at your answer working: 
+
+        Total number of possible PIN combinations =  Number of digit options <sup> Length on PIN <sup>
+      
+        Total number of possible PIN combinations = 10 <sup> 6 <sup>
+      
+        Total number of possible PIN combinations = 1,000,000
 
 1. Explain how the introduction of a cryptographic salt during hashing can stop the hacker from hacking user PINs. 
+
+        A random string is added to the PIN before it's hashed, so even when a hash in the stolen hash matches a has in the
 
 ## Resources 
 
