@@ -83,15 +83,13 @@ The starter code provides unit test for your `computeUsernamePINDictionary` meth
 
 1. Calculate the total number of possible PIN combinations you can generate from the above example. Show how you arrive at your answer working: 
 
-        Total number of possible PIN combinations =  Number of digit options <sup> Length on PIN <sup>
-      
-        Total number of possible PIN combinations = 10 <sup> 6 <sup>
-      
-        Total number of possible PIN combinations = 1,000,000
+      >**Total number of possible PIN combinations =  Number of digit options <sup> Length on PIN </sup>.      
+      >Total number of possible PIN combinations = 10 <sup> 6 </sup>.      
+      >Total number of possible PIN combinations = 1000000.**
 
 1. Explain how the introduction of a cryptographic salt during hashing can stop the hacker from hacking user PINs. 
 
-     *A random string, known as a cryptographic salt, is added to the PIN before it's hashed, so even when a hash in the stolen hash matches a hash in the precomputed dictionary, the plain text PIN won't be correct.*
+     >**A random string, known as a cryptographic salt, is added to the PIN before it's hashed, so even when a hash in the stolen hash matches a hash in the precomputed dictionary, the plain text PIN won't be correct.**
 
 ## Resources 
 
