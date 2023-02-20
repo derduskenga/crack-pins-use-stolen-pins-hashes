@@ -91,7 +91,7 @@ The starter code provides unit test for your `computeUsernamePINDictionary` meth
 
 1. Explain how the introduction of a cryptographic salt during hashing can stop the hacker from hacking user PINs. 
 
-        A random string is added to the PIN before it's hashed, so even when a hash in the stolen hash matches a has in the
+     *A random string, known as a cryptographic salt, is added to the PIN before it's hashed, so even when a hash in the stolen hash matches a hash in the precomputed dictionary, the plain text PIN won't be correct.*
 
 ## Resources 
 
