@@ -89,9 +89,9 @@ The starter code provides unit test for your `computeUsernamePINDictionary` meth
 
 1. Clone this repository 
 
-1. Create a branch off the main branch. Name your branch as simulate-PIN-crack-solution-\<github username of one of the group member\>, such as `simulate-PIN-crack-solution-derduskenga`
+1. Create a branch off the `main` branch. Name your new branch as *simulate-PIN-crack-solution-\<github username of one of the group member\>*, such as `simulate-PIN-crack-solution-derduskenga`
 
-1. Push your solution branch, and then create a pull request.
+1. Push your solution branch, and then create a pull request (PR). The title of your PR should be *Simulate PIN crack solution \<github username of the first group member\> and \<ithub username of the second group member\>* such as *Simulate PIN crack solution derduskenga and rrcobb*
 
 
 ## Resources 
