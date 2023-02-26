@@ -49,7 +49,7 @@ The hacker knows that the users sign in into the system by using a username and 
 
 ### Your task
 
-Your task is to implement the `computeUsernamePINDictionary` method. At the moment, it has a declared empty dictionary, `usernamePasswordDictionary`, which you need to add elements into, and then return it.  
+**In groups of 2 members**, your task is to implement the `computeUsernamePINDictionary` method. At the moment, it has a declared empty dictionary, `usernamePasswordDictionary`, which you need to add elements into, and then return it.  
 
 For example: 
 
@@ -90,6 +90,14 @@ The starter code provides unit test for your `computeUsernamePINDictionary` meth
 1. Explain how the introduction of a cryptographic salt during hashing can stop the hacker from hacking user PINs. 
 
      >**A random string, known as a cryptographic salt, is added to the PIN before it's hashed, so even when a hash in the stolen hash matches a hash in the precomputed dictionary, the plain text PIN won't be correct.**
+
+## How to submit your solution
+
+1. Clone this repository 
+
+1. Create a branch off the main branch. Name your branch as simulate-PIN-crack-solution-\<github username of one of the group member\>, such as `simulate-PIN-crack-solution-derduskenga`
+
+1. Push your solution branch, and then create a pull request.
 
 ## Resources 
 
